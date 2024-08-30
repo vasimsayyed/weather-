@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Subscription-Form</title>
+    <link rel="stylesheet" href="subs.css">
+    <script type="text/javascript">
+        function fun()
+        {
+            alert("Thanks for the subscribing..");
+        }
+        function fun1()
+        {
+            alert("page is reset");
+        }
+        function rand()
+        {
+            let p=Math.random();
+            q=p*10000;
+            r=Math.floor(q);
+            alert("OTP IS "+r);
+        }
+    </script>
+</head>
+<div class="container">
+    <div class="container-close"onclick="fun1()">&times;</div>
+    <img src="https://c4.wallpaperflare.com/wallpaper/827/390/338/landscape-nature-beach-resort-wallpaper-preview.jpg">
+    <div class="container-text">
+        <h2>ATMOSPHERE 360.</h2>
+        <h5>The Weather Forecasting App</h5>
+        <p>Enter your email to proceed further.</p>
+        <input type="email" placeholder="email">
+        <button onclick="rand()">Get OTP</button>
+        <input type="text" placeholder="OTP">
+       <a href="weather front2.html"><button type="submit" onclick="fun()">Subscribe</button></a>
+       
+        <span>No span included</span>
+    </div>
+</div>
+</html>
